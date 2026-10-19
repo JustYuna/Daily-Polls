@@ -20,7 +20,7 @@ module.exports = {
     },
     {
       question: "Chose a whimsical pet",
-      asnwers: [
+      answers: [
         { text: "Unicorn", emoji: "🦄" },
         { text: "Fairies", emoji: "🧚" },
         { text: "Dragon", emoji: "🐲" },
@@ -31,7 +31,7 @@ module.exports = {
     },
     {
       question: "Tom or Jerry?",
-      asnwers: [
+      answers: [
         { text: "Tom", emoji: "😺" },
         { text: "Jerry", emoji: "🐭" }
       ],
@@ -39,23 +39,15 @@ module.exports = {
     },
     {
       question: "Garfield or Odie?",
-      asnwers: [
+      answers: [
         { text: "Garfield", emoji: "😺" },
         { text: "Odie", emoji: "🐶" }
       ],
       multi: false
     },
     {
-      question: "What time format do you prefer?",
-      asnwers: [
-        { text: "24hr", emoji: "🕰️" },
-        { text: "12hr", emoji: "🕰️" },
-      ],
-      multi: false
-    },
-    {
       question: "Do you like the minecraft movie?",
-      asnwers: [
+      answers: [
         { text: "Yes", emoji: "🟩" },
         { text: "No", emoji: "🟥" },
         { text: "Its not even minecraft, its real life", emoji: "⁉️" }
@@ -64,7 +56,7 @@ module.exports = {
     },
     {
       question: "Choose a super power",
-      asnwers: [
+      answers: [
         { text: "Power of flight", emoji: "🪽" },
         { text: "Power of invibility", emoji: "👻" },
         { text: "Power of instant healing", emoji: "😇" },
@@ -74,7 +66,7 @@ module.exports = {
     },
     {
       question: "Choose a pet",
-      asnwers: [
+      answers: [
         { text: "Dog", emoji: "🐶" },
         { text: "Cat", emoji: "😺" },
         { text: "Mice", emoji: "🐭" },
@@ -85,7 +77,7 @@ module.exports = {
     },
     {
       question: "You are hungry, what do you eat?",
-      asnwers: [
+      answers: [
         { text: "Snow", emoji: "❄️" },
         { text: "Long bread", emoji: "🥖" },
         { text: "Hotdog", emoji: "🌭" },
@@ -97,7 +89,7 @@ module.exports = {
     },
     {
       question: "What is better?",
-      asnwers: [
+      answers: [
         { text: "Netflix", emoji: "📼" },
         { text: "Disney+", emoji: "📼" },
         { text: "HBO", emoji: "📼" },
@@ -109,7 +101,7 @@ module.exports = {
     },
     {
       question: "Chose a ice-cream flavor",
-      asnwers: [
+      answers: [
         { text: "Chocolate", emoji: "🟫" },
         { text: "Strawberry", emoji: "🟥" },
         { text: "Blueberry", emoji: "🟦" },
@@ -120,7 +112,7 @@ module.exports = {
     },
     {
       question: "McDonalds, KFC or Burger King?",
-      asnwers: [
+      answers: [
         { text: "McDonalds", emoji: "🍟" },
         { text: "KFC", emoji: "🍗" },
         { text: "Burger King", emoji: "🍔" },
@@ -130,12 +122,34 @@ module.exports = {
     },
     {
       question: "Favorite Pizza Toping",
-      asnwers: [
+      answers: [
         { text: "Pepperoni", emoji: "🍕" },
         { text: "Hawaiian (Pineapple)", emoji: "🍕" },
         { text: "Ham", emoji: "🍕" },
         { text: "Brocoli", emoji: "🍕" },
         { text: "Fries", emoji: "🍟" }
+      ],
+      multi: false
+    },
+    {
+      question: "Best board game?",
+      answers: [
+        { text: "Chess", emoji: "♟️" },
+        { text: "Checkers", emoji: "⚫" },
+        { text: "Monopoly", emoji: "🏘️" },
+        { text: "Scrabble", emoji: "🔠" },
+        { text: "Battleship", emoji: "🛥️" },
+        { text: "Uraniumladders", emoji: "🪜" }
+      ],
+      multi: false
+    },
+    {
+      question: "What should we replace the global economy with?",
+      answers: [
+        { text: "V-Bucks", emoji: "🔫" },
+        { text: "Robux", emoji: "🟥" },
+        { text: "Tix", emoji: "🎫" },
+        { text: "Uranium", emoji: "🩻" }
       ],
       multi: false
     }

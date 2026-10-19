@@ -12,7 +12,7 @@ const Command = {
     var data = {
       question: { text: poll.question },
       answers: poll.answers,
-      alloweMultiselect: poll.multi,
+      alloweMultiselect: false,
       duration: 3,
       layoutType: PollLayoutType.Default
     };
