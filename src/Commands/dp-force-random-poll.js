@@ -1,4 +1,6 @@
 const { PollLayoutType } = require("discord.js");
+const { choose } = require("../helper");
+const config = require("../config");
 
 const Command = {
   data: {
@@ -6,16 +8,17 @@ const Command = {
     description: "Forces a random poll in the current channel.",
   },
   run: async function (interaction, client) {
-    interaction.channel.send({
-      poll: {
-        question: { text: "Test" },
-        answers: [ { text: "Test 1", emoji: "🍎" }, { text: "Test 2", emoji: "🍎" }, { text: "Test 3", emoji: "🍎" } ],
-        alloweMultiselect: false,
-        duration: 2,
-        layoutType: PollLayoutType.Default
-      }
-    });
+    var poll = choose(config.polls);
+    var data = {
+      question: { text: poll.question },
+      answers: poll.answers,
+      alloweMultiselect: poll.multi,
+      duration: 3,
+      layoutType: PollLayoutType.Default
+    };
+    
+    interaction.channel.send({ poll: data });
   }
-};
+}; 
 
 module.exports = Command;

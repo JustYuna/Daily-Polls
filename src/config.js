@@ -7,7 +7,23 @@ module.exports = {
     command_error_process: "Command error while executing."
   },
   polls: [
-    { question: "What soop would you rather eat?", answers: [ "Tomato Soup", "Mushroom soup", "Green glowing soup", "Salty Soup" ]  },
-    { question: "Chose a whimsical pet", asnwers: [ "Unicorn", "Dragon", "Fairies", "9 Tailed fox" ] }
+    {
+      question: "What soop would you rather eat?",
+      answers: [
+        { text: "Tomato Soup", emoji: "🍅" },
+        { text: "Mushroom Soup", emoji: "🍄" },
+        { text: "Salty Soup", emoji: "🧂" },
+        { text: "Fish Soup", emoji: "🐡" },
+        { text: "Radioactive Soup", emoji: "🩻" }
+    ]},
+    {
+      question: "Chose a whimsical pet",
+      asnwers: [
+        { text: "Unicorn", emoji: "🦄" },
+        { text: "Fairies", emoji: "🧚" },
+        { text: "Dragon", emoji: "🐲" },
+        { text: "9 Tailed fox", emoji: "🦊" },
+        { text: "Talking radioactive glibber", emoji: "🩻" }
+      ]}
   ]
 };
