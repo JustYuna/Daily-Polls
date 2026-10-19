@@ -71,6 +71,73 @@ module.exports = {
         { text: "Power of being radioactive", emoji: "🩻" }
       ],
       multi: false
+    },
+    {
+      question: "Choose a pet",
+      asnwers: [
+        { text: "Dog", emoji: "🐶" },
+        { text: "Cat", emoji: "😺" },
+        { text: "Mice", emoji: "🐭" },
+        { text: "Bunny", emoji: "🐰" },
+        { text: "Goop...", emoji: "🩻" }
+      ],
+      multi: false
+    },
+    {
+      question: "You are hungry, what do you eat?",
+      asnwers: [
+        { text: "Snow", emoji: "❄️" },
+        { text: "Long bread", emoji: "🥖" },
+        { text: "Hotdog", emoji: "🌭" },
+        { text: "Salad", emoji: "🥗" },
+        { text: "Softice", emoji: "🍦" },
+        { text: "Can't say uranium without yum!", emoji: "🩻" }
+      ],
+      multi: false
+    },
+    {
+      question: "What is better?",
+      asnwers: [
+        { text: "Netflix", emoji: "📼" },
+        { text: "Disney+", emoji: "📼" },
+        { text: "HBO", emoji: "📼" },
+        { text: "Hulu", emoji: "📼" },
+        { text: "Amazon Prime", emoji: "📼" },
+        { text: "Youtube", emoji: "📼" }
+      ],
+      multi: false
+    },
+    {
+      question: "Chose a ice-cream flavor",
+      asnwers: [
+        { text: "Chocolate", emoji: "🟫" },
+        { text: "Strawberry", emoji: "🟥" },
+        { text: "Blueberry", emoji: "🟦" },
+        { text: "Vanilla", emoji: "⬜" },
+        { text: "Radioactive Apple", emoji: "🟩" }
+      ],
+      multi: false
+    },
+    {
+      question: "McDonalds, KFC or Burger King?",
+      asnwers: [
+        { text: "McDonalds", emoji: "🍟" },
+        { text: "KFC", emoji: "🍗" },
+        { text: "Burger King", emoji: "🍔" },
+        { text: "None", emoji: "😇" }
+      ],
+      multi: false
+    },
+    {
+      question: "Favorite Pizza Toping",
+      asnwers: [
+        { text: "Pepperoni", emoji: "🍕" },
+        { text: "Hawaiian (Pineapple)", emoji: "🍕" },
+        { text: "Ham", emoji: "🍕" },
+        { text: "Brocoli", emoji: "🍕" },
+        { text: "Fries", emoji: "🍟" }
+      ],
+      multi: false
     }
   ]
 };
